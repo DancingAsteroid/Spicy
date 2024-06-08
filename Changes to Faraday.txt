@@ -1,0 +1,10 @@
+This is a list where I try to keep track of changes that I go to the faraday-Assets. Not sure however if I got everything.
+
+1. Make Components that interact with pinch be accessabile via controlers
+- Bulb.cs, Flute.cs, Rocker.cs, Solar.cs, TimerFace.cs have added conditions for controlers
+- Roker.cs: The lines that toogle the rocker are now accessible as a public method
+- Activation Event of Lever now triggers the toogle script of the rocker
+
+2. Change the capsule collider of the components to not Trigger so that they provide a way to pick up components from the board
+
+3. Other experimental Changes when I tried to implement a voltmeter. The easiest way to see them exactly would be to use a software that compares the original farady-scripts to the versions in this Project. It's nothing major though.

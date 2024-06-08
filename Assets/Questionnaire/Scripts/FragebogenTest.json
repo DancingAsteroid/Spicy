@@ -1,0 +1,115 @@
+{"questionnaire": [
+        {
+            "name": "G1",
+            "question": "In der computererzeugten Welt hatte ich den Eindruck, dort gewesen zu sein...",
+            "anchorLeft":"überhaupt nicht",
+            "anchorRight":"sehr stark",
+            "anchorMiddle": ""
+        },
+        {
+            "name": "SP1",
+            "question":"Ich hatte das Gefühl, daß die virtuelle Umgebung hinter mir weitergeht.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },
+        {
+            "name": "SP2",
+            "question":"Ich hatte das Gefühl, nur Bilder zu sehen.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },       
+        {
+            "name": "SP3",
+            "question":"Ich hatte nicht das Gefühl, in dem virtuellen Raum zu sein.",
+            "anchorLeft":"hatte nicht das Gefühl",
+            "anchorRight":"hatte das Gefühl",
+            "anchorMiddle": ""
+        },        
+        {
+            "name": "SP4",
+            "question":"Ich hatte das Gefühl, in dem virtuellen Raum zu handeln statt etwas von außen zu bedienen.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },        
+        {
+            "name": "SP5",
+            "question":"Ich fühlte mich im virtuellen Raum anwesend.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },        
+        {
+            "name": "INV1",
+            "question":"Wie bewußt war Ihnen die reale Welt, während Sie sich durch die virtuelle Welt bewegten (z.B. Geräusche, Raumtemperatur, andere Personen etc.)?",
+            "anchorLeft":"extrem bewußt",
+            "anchorMiddle": "mittelmäßig bewußt",
+            "anchorRight":"unbewußt"
+        },        
+        {
+            "name": "INV2",
+            "question":"Meine reale Umgebung war mir nicht mehr bewußt.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },        
+        {
+            "name": "INV3",
+            "question":"Ich achtete noch auf die reale Umgebung.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },
+        {
+            "name": "INV4",
+            "question":"Meine Aufmerksamkeit war von der virtuellen Welt völlig in Bann gezogen.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },
+        {
+            "name": "REAL1",
+            "question":"Wie real erschien Ihnen die virtuelle Umgebung?",
+            "anchorLeft":"vollkommen real",
+            "anchorMiddle": "weder noch",
+            "anchorRight":"gar nicht real"
+        },
+        {
+            "name": "REAL2",
+            "question":"Wie sehr glich Ihr Erleben der virtuellen Umgebung dem Erleben einer realen Umgebung?",
+            "anchorLeft":"überhaupt nicht",
+            "anchorRight":"vollständig",
+            "anchorMiddle": "etwas"
+        },
+        {
+            "name": "REAL3",
+            "question":"Wie real erschien Ihnen die virtuelle Welt?",
+            "anchorLeft":"wie eine vorgestellte Welt",
+            "anchorRight":"nicht zu unterscheiden von der realen Welt",
+            "anchorMiddle": ""
+        },
+        {
+            "name": "REAL4",
+            "question":"Die virtuelle Welt erschien mir wirklicher als die reale Welt.",
+            "anchorLeft":"trifft gar nicht zu",
+            "anchorRight":"trifft völlig zu",
+            "anchorMiddle": ""
+        },
+        {
+          "name": "Valence",
+          "question": "Die Umgebung lässt mich... fühlen",
+          "anchorRight": "aktiviert",
+          "anchorLeft": "deaktiviert",
+          "anchorMiddle": ""
+        },
+        {
+          "name": "Affection",
+          "question": "Die Umgebung gibt mir ... Gefühle",
+          "anchorRight": "angenehme",
+          "anchorLeft": "unangenehme",
+          "anchorMiddle": ""
+        }
+
+    ]}

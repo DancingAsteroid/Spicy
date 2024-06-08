@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1850578325382666822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850578325382666840}
+  - component: {fileID: 1850578325382666823}
+  - component: {fileID: 2260108928318761652}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1850578325382666840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850578325382666822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6691382, y: 1.7963594, z: 3.5807366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1850578325382666823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850578325382666822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aff388bb2ab60b4f9ba7a687d7a6e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionnaireScheduler: {fileID: 2260108928318761652}
+  wirePrefab: {fileID: 7992441966118001158, guid: fe05064ef26df5f489b959403a08cb06, type: 3}
+  lightbulbPrefab: {fileID: 5896863642939402140, guid: b9af33ab8ae9cbf4b9fd3c095f53519e, type: 3}
+  LEDPrefab: {fileID: 5448032670705153879, guid: 02aa965c24a8889498e3c1d34191f5e3, type: 3}
+  resistorPrefab: {fileID: 8463369933256615097, guid: 6804268bb2b9c9c4bb2ed0c0b8b588d3, type: 3}
+  batteryPrefab: {fileID: 7819513059699507657, guid: a614e80a60b466048baf2979a8af5382, type: 3}
+  staticVoltageSourcePrefab: {fileID: 3603978155405288684, guid: a879a0ff7b0da3d4e935382749f6be9d, type: 3}
+  switchPrefab: {fileID: 7963754497370972019, guid: 627297f9112d18f4c9883e61407dabfa, type: 3}
+  brokenBulbPrefab: {fileID: 6089626660814402444, guid: 49207c1a0ff0cea4a83c0b6c6ee08a4c, type: 3}
+--- !u!114 &2260108928318761652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850578325382666822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07bfb9832392bd4a90812bbc5bb0fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionsForStagesDuringLevelX:
+  - percentageForQuestionnaire: 0
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 100
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 0
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 0
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 0
+    mutuallyExclusiveWithStageInSameLevel: 5
+  conditionsForStagesAfterLevelX:
+  - percentageForQuestionnaire: 0
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 0
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 100
+    mutuallyExclusiveWithStageInSameLevel: 5
+  - percentageForQuestionnaire: 50
+    mutuallyExclusiveWithStageInSameLevel: 4
+  - percentageForQuestionnaire: 50
+    mutuallyExclusiveWithStageInSameLevel: 5
+  levelX: 2

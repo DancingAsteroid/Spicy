@@ -1,0 +1,2 @@
+The structure of this folder is quite arbitrarily, the Folder "SketchfabImports" contains files that where imported using a tool while the others where added manually.
+For a full overview of the credits for the CC-Models, see the Credits.txt

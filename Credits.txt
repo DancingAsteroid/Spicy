@@ -1,0 +1,21 @@
+The core of this project builds on Project Faraday (https://github.com/Schackasawa/faraday) by Darren Schack. Project Faraday used the SpiceSharp Libary (MIT license, see https://github.com/SpiceSharp/SpiceSharp and https://spicesharp.github.io/SpiceSharp/index.html).
+
+
+
+Several models which have been shared on Sketchfab under a CC-License have been used in this project. Thanks a lot to the authors for sharing them with a CC-License!
+
+"Electrical Power Supply" (https://skfb.ly/6pnpR) by kerouac9 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"kabel Penghubung Hitam" (https://skfb.ly/oxzJU) by LucHi is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Ampermeter" (https://skfb.ly/osCW8) by barism09 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Television Screen / Computer Monitor" (https://skfb.ly/6WDPJ) by Fusion is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"LowPoly Stylized Classroom" (https://skfb.ly/6TsG6) by Mumladze28 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"button" (https://skfb.ly/ovJHW) by n0stardust is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Lab table WIP" (https://skfb.ly/6XDVr) by GroundZer0 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"LED light" (https://skfb.ly/6uZPp) by Jiří Kuba is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
